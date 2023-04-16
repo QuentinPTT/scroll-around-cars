@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#threesixty-img{
+    width: 800px;
+    cursor: pointer;
+}
+
+#threesixty{
+    position: relative;
+}
+
+#progress-bar {
+    background-color: rgb(214, 46, 46);
+    height: 10px;
+}
+
+#progress-container{
+    height: 10px;
+    width: 800px;
+}
+
+#logo-360{
+    position: absolute;
+    width: 50px;
+    right: 20px;
+    bottom: 10px;
+    color: white;
+}
